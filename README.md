@@ -40,4 +40,4 @@ This Azure Function listens to messages from an Azure Event Hub and writes them 
 If the function is running successfully locally, you can deploy to an existing Azure function app:
 
 ```bash
-func azure functionapp publish iotmessagemover
+func azure functionapp publish <functionapp_name>
