@@ -6,7 +6,7 @@ This Azure Function listens to messages from an Azure Event Hub and writes them 
 
 **Note:** This function has been tested with Python 3.11 only, as the Azure Functions Core Tools are not supported on higher releases.
 
-## Setup
+## Setup & Testing Locally
 
 1. **Create a virtual environment**:
     ```bash
