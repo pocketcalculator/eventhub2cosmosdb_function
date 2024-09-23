@@ -15,7 +15,6 @@ def eventHubToCosmosDBFunction(eventhubmsg: func.EventHubEvent, outputDocument: 
     
     # Extract the data from the eventhub message body
     extracted_data = {
-        "device_id": message.get("device_id"),
         "id": message.get("id"),
         "device_id": message.get("device_id"),
         "value": message.get("value"),
