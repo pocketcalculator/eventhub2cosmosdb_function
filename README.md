@@ -9,16 +9,19 @@ This Azure Function, written in Python, listens to messages from an Azure Event 
 ## Setup for Testing Locally
 
 1. **Create a virtual environment**:
+
     ```bash
     python -m venv .venv
     ```
 
 2. **Activate the virtual environment**:
+
     ```bash
     source .venv/bin/activate
     ```
 
 3. **Initialize the Azure Function**:
+
     ```bash
     func init --python
     ```
@@ -31,6 +34,7 @@ This Azure Function, written in Python, listens to messages from an Azure Event 
 5. **Update `local.settings.json`** with your configuration.
 
 6. **Start the function locally**:
+
     ```bash
     func start
     ```
