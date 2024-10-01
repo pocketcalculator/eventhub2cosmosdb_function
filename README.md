@@ -1,6 +1,4 @@
-# eventhub2cosmosdb_function
-
-Azure Functions Event Hubs Message to Cosmos DB
+# Azure Functions Event Hubs Message to Cosmos DB
 
 This Azure Function, written in Python, listens to messages from an Azure Event Hub and writes them to an Azure Cosmos DB. It is designed to handle high-throughput event processing and ensure reliable message delivery to the database.
 
